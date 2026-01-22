@@ -1,7 +1,7 @@
 Markdown
-# LightDB Engine 🚀
+# DBLight Engine 🚀
 
-LightDB Engine is a lightweight, high-performance database system built on top of SQLite.  
+DBLight Engine is a lightweight, high-performance database system built on top of SQLite.  
 It provides a **unified API** for local storage, **multi-file sharding**, and **ultra-fast in-memory (RAM) caching**, designed to work efficiently even on low-resource devices.
 
 ---
@@ -28,7 +28,7 @@ Requires Python 3.8+
 
 ## 📊 Performance & Scaling
 
-LightDB is optimized for high-efficiency usage without exhausting system memory.
+DBLight is optimized for high-efficiency usage without exhausting system memory.
 
 Benchmark (example):
 
@@ -65,7 +65,7 @@ Disk I/O is batched for efficiency
 ## 🚀 Quick Start (Hybrid Mode)
 
 ```Python
-from light_db.flash import flash
+from DBLight.flash import flash
 
 db = flash(
     name="app_data",
@@ -150,6 +150,6 @@ For issues or feature requests, open an issue in the repository.
 
 ---
 
-LightDB Engine — Fast. Simple. Reliable.
+DBLight Engine — Fast. Simple. Reliable.
 
 ---
