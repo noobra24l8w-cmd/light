@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DBLight"
+version = "0.1.0"
+description = "Sharded, cached SQLite database optimized for mobile (4GB RAM)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Apache-2.0"}
+authors = [
+  { name = "DBLight Developer", email = "meofficial76@gmail.com" },
+]
+dependencies = [
+    "ujson>=5.0.0",
+]
+"
