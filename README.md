@@ -20,7 +20,7 @@ It provides a **unified API** for local storage, **multi-file sharding**, and **
 ## 📦 Installation
 
 ```bash
-pip install light-db-engine
+Unavailable
 ```
 Requires Python 3.8+
 
